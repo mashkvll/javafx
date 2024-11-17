@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="567.0" prefWidth="655.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demonn.List">
+   <children>
+      <ScrollPane layoutY="83.0" prefHeight="485.0" prefWidth="655.0">
+         <content>
+            <VBox fx:id="vboxMain" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="483.0" prefWidth="639.0" />
+         </content>
+      </ScrollPane>
+      <Text layoutX="138.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Достопремечательности Нижнего Новгорода" textAlignment="CENTER" wrappingWidth="380.0">
+         <font>
+            <Font name="Cantarell Bold" size="27.0" />
+         </font>
+      </Text>
+      <Button fx:id="button_to_reviews" layoutX="505.0" layoutY="14.0" mnemonicParsing="false" onAction="#to_reviews" text="В личный кабинет" />
+      <Button fx:id="button_add_review" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#add_review" text="Добавить отзыв" />
+   </children>
+</AnchorPane>
